@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router-dom";
+import iconDownloads from "../assets/icon-downloads.png";
+import iconRatings from "../assets/icon-ratings.png";
+import iconReviews from "../assets/icon-review.png";
 import {
   BarChart,
   Bar,
@@ -9,11 +12,6 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-
-import iconDownloads from "../../assets/icon-downloads.png";
-import iconRatings from "../../assets/icon-ratings.png";
-import iconReviews from "../../assets/icon-review.png";
-
 const AppDetails = () => {
   const app = useLoaderData();
   const {
@@ -124,8 +122,7 @@ const AppDetails = () => {
                   .slice()
                   .map((r) => ({ name: r.name, value: r.count }))}
               >
-                <CartesianGrid strokeDasharray="3 3" horizontal={false} />
-                <XAxis type="number" axisLine={false} tickLine={false} />
+        <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                 <YAxis
                   type="category"
                   dataKey="name"

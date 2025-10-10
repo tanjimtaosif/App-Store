@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bannerImg from "../../assets/hero.png";
-import googlePlayIcon from "../../assets/google-play-icon.png";
-import appStoreIcon from "../../assets/app-store-icon.webp";
+import bannerImg from "../assets/hero.png";
+import googlePlayIcon from "../assets/google-play-icon.png";
+import appStoreIcon from "../assets/app-store-icon.webp";
 
 const Banner = () => {
   return (
