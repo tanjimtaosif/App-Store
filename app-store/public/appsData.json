@@ -1,0 +1,182 @@
+[
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Trello_logo.svg",
+    "title": "TaskFlow Manager",
+    "companyName": "Zenith Labs",
+    "id": 1,
+    "description": "TaskFlow Manager helps teams organize projects, assign tasks, and track progress in real time. With a sleek dashboard, time tracking, and file sharing, productivity becomes effortless. Stay connected and deliver faster results.",
+    "size": 45,
+    "reviews": 1240,
+    "ratingAvg": 4.6,
+    "downloads": 98000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 380 },
+      { "name": "5 star", "count": 665 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/lYj7NOnKQmzSkM7P3_7qX_7kCOJhK9o2zT3lBthufZzJwOyNThI4IivEnA5Bcfcr4w=w480-h960",
+    "title": "FitTrack Pro",
+    "companyName": "MotionX Fitness",
+    "id": 2,
+    "description": "FitTrack Pro lets you set fitness goals, monitor calories, and record your daily workouts. With AI-based health insights, it adjusts plans based on your progress. Perfect for gym lovers and beginners alike.",
+    "size": 52,
+    "reviews": 940,
+    "ratingAvg": 4.4,
+    "downloads": 87000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 110 },
+      { "name": "4 star", "count": 290 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/45/Adobe_Photoshop_CC_icon.svg",
+    "title": "PhotoVerse Editor",
+    "companyName": "PixelCraft Studio",
+    "id": 3,
+    "description": "PhotoVerse Editor transforms your images with filters, AI touch-ups, and background removals. It’s designed for both professionals and everyday users looking for a simple yet powerful photo editing tool.",
+    "size": 78,
+    "reviews": 2650,
+    "ratingAvg": 4.8,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 520 },
+      { "name": "5 star", "count": 1830 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Al5RvoLWY7cXH1YAgBznskTYy26O20wY7QqRx1sSxjvhr9L9G4IZW0NszOK2Uq_gRA=w480-h960",
+    "title": "MindEase Meditation",
+    "companyName": "Tranquil Apps",
+    "id": 4,
+    "description": "MindEase Meditation offers guided audio sessions, breathing exercises, and sleep sounds. Reduce stress, improve focus, and create a daily mindfulness habit to support mental wellness.",
+    "size": 39,
+    "reviews": 640,
+    "ratingAvg": 4.5,
+    "downloads": 54000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 60 },
+      { "name": "4 star", "count": 210 },
+      { "name": "5 star", "count": 335 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Udemy_logo.svg",
+    "title": "EduSmart Learn",
+    "companyName": "BrightPath Inc.",
+    "id": 5,
+    "description": "EduSmart Learn provides online courses with video lessons, quizzes, and AI recommendations. It’s the perfect platform for students and professionals eager to upskill anytime, anywhere.",
+    "size": 60,
+    "reviews": 1750,
+    "ratingAvg": 4.7,
+    "downloads": 110000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 420 },
+      { "name": "5 star", "count": 1115 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/50/Mint_Logo.svg",
+    "title": "QuickBudget",
+    "companyName": "Fintrack Co.",
+    "id": 6,
+    "description": "QuickBudget helps users manage expenses, track income, and set financial goals. Its clean charts and smart reminders make budgeting simple and stress-free for individuals and families.",
+    "size": 34,
+    "reviews": 890,
+    "ratingAvg": 4.3,
+    "downloads": 62000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 390 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Tripadvisor_Logo_icon.svg",
+    "title": "TripMate",
+    "companyName": "GoGlobal Travel",
+    "id": 7,
+    "description": "TripMate is your smart travel companion. Plan itineraries, find hidden spots, and get real-time weather and booking support. Perfect for solo travelers and family vacations.",
+    "size": 58,
+    "reviews": 1340,
+    "ratingAvg": 4.6,
+    "downloads": 103000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 170 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 700 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Evernote.svg",
+    "title": "NotePro",
+    "companyName": "CloudSync Labs",
+    "id": 8,
+    "description": "NotePro makes note-taking smarter with AI-based summarization, cloud sync, and offline access. Stay organized across all devices with seamless sharing and auto backup.",
+    "size": 28,
+    "reviews": 780,
+    "ratingAvg": 4.4,
+    "downloads": 56000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 340 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Google_Home_logo.svg",
+    "title": "SmartHome Link",
+    "companyName": "TechNest",
+    "id": 9,
+    "description": "SmartHome Link connects all your IoT devices in one place. Control lighting, security, and temperature from anywhere with voice or touch commands.",
+    "size": 66,
+    "reviews": 2200,
+    "ratingAvg": 4.8,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 430 },
+      { "name": "5 star", "count": 1440 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Yummly_logo.svg",
+    "title": "RecipeHub",
+    "companyName": "DelishTech",
+    "id": 10,
+    "description": "RecipeHub gives you thousands of global recipes with step-by-step videos and grocery lists. Personalize meals based on diet preferences and ingredients available at home.",
+    "size": 50,
+    "reviews": 1050,
+    "ratingAvg": 4.5,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 310 },
+      { "name": "5 star", "count": 505 }
+    ]
+  }
+]
