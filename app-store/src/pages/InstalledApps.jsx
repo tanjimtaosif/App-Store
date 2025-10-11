@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { FiDownload } from "react-icons/fi";
-import { FaStar } from "react-icons/fa";
+import { FaCloudDownloadAlt } from "react-icons/fa";
+
+import { CiStar } from "react-icons/ci";
+
 
 const InstalledApps = () => {
   const [apps, setApps] = useState([]);
@@ -66,10 +68,10 @@ const InstalledApps = () => {
                 </h2>
                 <div className="flex items-center gap-4 mt-2 text-sm">
                   <span className="flex items-center gap-1 text-[#00D390]">
-                    <FiDownload /> {app.downloads.toLocaleString()}
+                    <FaCloudDownloadAlt /> {app.downloads.toLocaleString()}
                   </span>
                   <span className="flex items-center gap-1 text-[#FF8811]">
-                    <FaStar /> {app.ratingAvg}
+                    <CiStar /> {app.ratingAvg}
                   </span>
                   <span className="text-gray-500 text-sm">{app.size} MB</span>
                 </div>
