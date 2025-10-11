@@ -98,8 +98,8 @@ const Footer = () => {
       {/* Copyright */}
       <div className="pt-6 text-center text-gray-400 text-sm">
         <p>
-          © {new Date().getFullYear()} HERO.IO — Designed & Developed with ❤️ by
-          Dev Gantabya
+          © {new Date().getFullYear()} HERO.IO — Designed & Developed by
+          Tanjim Mahtab.
         </p>
       </div>
     </footer>
