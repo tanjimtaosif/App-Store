@@ -12,6 +12,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+
 const AppDetails = () => {
   const app = useLoaderData();
   const {
@@ -27,23 +28,27 @@ const AppDetails = () => {
     reviews,
   } = app;
 
+  // Always work with numeric IDs
+  const appId = Number(id);
+
   const [installedApps, setInstalledApps] = useState([]);
 
   useEffect(() => {
     const stored = JSON.parse(localStorage.getItem("installedApps")) || [];
-    setInstalledApps(stored);
+    // normalize to numbers, in case some old values were strings
+    const normalized = stored.map((v) => Number(v));
+    setInstalledApps(normalized);
   }, []);
 
-  const handleInstall = (id) => {
-    const numericId = Number(id);
-    if (!installedApps.includes(numericId)) {
-      const updated = [...installedApps, numericId];
+  const handleInstall = () => {
+    if (!installedApps.includes(appId)) {
+      const updated = [...installedApps, appId];
       setInstalledApps(updated);
       localStorage.setItem("installedApps", JSON.stringify(updated));
     }
   };
 
-  const isInstalled = installedApps.includes(id);
+  const isInstalled = installedApps.includes(appId);
 
   return (
     <section className="w-full bg-white">
@@ -74,28 +79,46 @@ const AppDetails = () => {
             {/* Stats */}
             <div className="flex flex-wrap justify-center md:justify-start gap-8 border-t border-gray-200 pt-6">
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                <img src={iconDownloads} alt="Downloads icon" className="h-10 w-10" />
+                <img
+                  src={iconDownloads}
+                  alt="Downloads icon"
+                  className="h-10 w-10"
+                />
                 <p className="text-[#001931] mt-2 text-base">Downloads</p>
-                <h3 className="text-3xl font-extrabold text-[#001931]">{downloads}</h3>
+                <h3 className="text-3xl font-extrabold text-[#001931]">
+                  {downloads}
+                </h3>
               </div>
 
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                <img src={iconRatings} alt="Ratings icon" className="h-10 w-10" />
+                <img
+                  src={iconRatings}
+                  alt="Ratings icon"
+                  className="h-10 w-10"
+                />
                 <p className="text-[#001931] mt-2 text-base">Average Rating</p>
-                <h3 className="text-3xl font-extrabold text-[#001931]">{ratingAvg}</h3>
+                <h3 className="text-3xl font-extrabold text-[#001931]">
+                  {ratingAvg}
+                </h3>
               </div>
 
               <div className="flex flex-col items-center md:items-start text-center md:text-left">
-                <img src={iconReviews} alt="Reviews icon" className="h-10 w-10" />
+                <img
+                  src={iconReviews}
+                  alt="Reviews icon"
+                  className="h-10 w-10"
+                />
                 <p className="text-[#001931] mt-2 text-base">Total Reviews</p>
-                <h3 className="text-3xl font-extrabold text-[#001931]">{reviews}</h3>
+                <h3 className="text-3xl font-extrabold text-[#001931]">
+                  {reviews}
+                </h3>
               </div>
             </div>
 
             {/* Install Button */}
             <div className="mt-8 text-center md:text-left">
               <button
-                onClick={() => handleInstall(id)}
+                onClick={handleInstall}
                 disabled={isInstalled}
                 className={`rounded px-6 py-3 text-lg font-semibold text-white transition ${
                   isInstalled
@@ -122,7 +145,7 @@ const AppDetails = () => {
                   .slice()
                   .map((r) => ({ name: r.name, value: r.count }))}
               >
-        <CartesianGrid strokeDasharray="3 3" horizontal={false} />
+                <CartesianGrid strokeDasharray="3 3" horizontal={false} />
                 <YAxis
                   type="category"
                   dataKey="name"
@@ -131,7 +154,12 @@ const AppDetails = () => {
                   tick={{ dx: -10 }}
                 />
                 <Tooltip />
-                <Bar dataKey="value" fill="#FF8811" barSize={28} radius={[5, 5, 0, 0]} />
+                <Bar
+                  dataKey="value"
+                  fill="#FF8811"
+                  barSize={28}
+                  radius={[5, 5, 0, 0]}
+                />
               </BarChart>
             </ResponsiveContainer>
           </div>
@@ -142,7 +170,9 @@ const AppDetails = () => {
           <h2 className="text-2xl font-semibold text-[#001931] mb-4 text-center md:text-left">
             Description
           </h2>
-          <p className="text-[#374151] leading-relaxed text-lg">{description}</p>
+          <p className="text-[#374151] leading-relaxed text-lg">
+            {description}
+          </p>
         </div>
       </div>
     </section>
