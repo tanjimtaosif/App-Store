@@ -1,362 +1,182 @@
 [
   {
-    "image": "https://picsum.photos/id/11/100/100",
-    "title": "ZenFlow Meditation",
-    "companyName": "Mindful Technologies Inc.",
-    "id": 1001,
-    "description": "Daily guided meditations for stress relief and better sleep. Start your journey to a calmer mind.",
-    "size": 95,
-    "reviews": 152345,
-    "ratingAvg": 4.8,
-    "downloads": 5200000,
-    "ratings": [
-      { "name": "1 star", "count": 1200 },
-      { "name": "2 star", "count": 800 },
-      { "name": "3 star", "count": 4500 },
-      { "name": "4 star", "count": 25845 },
-      { "name": "5 star", "count": 120000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/12/100/100",
-    "title": "CodeLearn: Python & JS",
-    "companyName": "DevSkills Education",
-    "id": 1002,
-    "description": "Learn to code on the go with interactive lessons and quizzes. Master Python, JavaScript, and more.",
-    "size": 112,
-    "reviews": 89450,
-    "ratingAvg": 4.6,
-    "downloads": 3100000,
-    "ratings": [
-      { "name": "1 star", "count": 900 },
-      { "name": "2 star", "count": 1100 },
-      { "name": "3 star", "count": 3500 },
-      { "name": "4 star", "count": 19450 },
-      { "name": "5 star", "count": 64500 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/13/100/100",
-    "title": "PixelArt Maker Pro",
-    "companyName": "Creative Canvas Studio",
-    "id": 1003,
-    "description": "Create stunning pixel art with advanced tools, layers, and color palettes. Share your retro masterpieces.",
-    "size": 78,
-    "reviews": 23560,
-    "ratingAvg": 4.5,
-    "downloads": 950000,
-    "ratings": [
-      { "name": "1 star", "count": 350 },
-      { "name": "2 star", "count": 510 },
-      { "name": "3 star", "count": 1500 },
-      { "name": "4 star", "count": 6200 },
-      { "name": "5 star", "count": 15000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/14/100/100",
-    "title": "ExpenseTracker+",
-    "companyName": "Financial Freedom Apps",
-    "id": 1004,
-    "description": "Easily track your expenses, manage budgets, and visualize your spending habits. Stay in control of your money.",
-    "size": 45,
-    "reviews": 350200,
-    "ratingAvg": 4.7,
-    "downloads": 12800000,
-    "ratings": [
-      { "name": "1 star", "count": 2500 },
-      { "name": "2 star", "count": 2100 },
-      { "name": "3 star", "count": 8900 },
-      { "name": "4 star", "count": 76700 },
-      { "name": "5 star", "count": 260000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/15/100/100",
-    "title": "Galaxy Shooter 3D",
-    "companyName": "Interstellar Games Ltd.",
-    "id": 1005,
-    "description": "A classic arcade space shooter with modern 3D graphics and intense boss battles. Save the galaxy!",
-    "size": 350,
-    "reviews": 985000,
-    "ratingAvg": 4.4,
-    "downloads": 55000000,
-    "ratings": [
-      { "name": "1 star", "count": 15000 },
-      { "name": "2 star", "count": 25000 },
-      { "name": "3 star", "count": 80000 },
-      { "name": "4 star", "count": 210000 },
-      { "name": "5 star", "count": 655000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/16/100/100",
-    "title": "Recipe Hub",
-    "companyName": "Culinary Creations",
-    "id": 1006,
-    "description": "Thousands of recipes from around the world. Search, save, and cook your next favorite meal.",
-    "size": 60,
-    "reviews": 19500,
-    "ratingAvg": 4.6,
-    "downloads": 750000,
-    "ratings": [
-      { "name": "1 star", "count": 150 },
-      { "name": "2 star", "count": 300 },
-      { "name": "3 star", "count": 950 },
-      { "name": "4 star", "count": 4100 },
-      { "name": "5 star", "count": 14000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/17/100/100",
-    "title": "Daily Habit Tracker",
-    "companyName": "Achieve Better Co.",
-    "id": 1007,
-    "description": "Build good habits and break bad ones. Use streaks, reminders, and progress charts for motivation.",
-    "size": 30,
-    "reviews": 75400,
-    "ratingAvg": 4.9,
-    "downloads": 2500000,
-    "ratings": [
-      { "name": "1 star", "count": 400 },
-      { "name": "2 star", "count": 200 },
-      { "name": "3 star", "count": 800 },
-      { "name": "4 star", "count": 13000 },
-      { "name": "5 star", "count": 61000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/18/100/100",
-    "title": "World Atlas Pro",
-    "companyName": "GeoKnowledge",
-    "id": 1008,
-    "description": "Detailed political and physical maps, country facts, and history lessons. Explore the world from your device.",
-    "size": 250,
-    "reviews": 15000,
-    "ratingAvg": 4.2,
-    "downloads": 620000,
-    "ratings": [
-      { "name": "1 star", "count": 600 },
-      { "name": "2 star", "count": 900 },
-      { "name": "3 star", "count": 2000 },
-      { "name": "4 star", "count": 3500 },
-      { "name": "5 star", "count": 8000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/19/100/100",
-    "title": "Photo Editor AI",
-    "companyName": "Vivid Pixels",
-    "id": 1009,
-    "description": "Professional photo editing powered by AI. Remove backgrounds, enhance colors, and apply artistic filters instantly.",
-    "size": 180,
-    "reviews": 1200000,
-    "ratingAvg": 4.7,
-    "downloads": 75000000,
-    "ratings": [
-      { "name": "1 star", "count": 15000 },
-      { "name": "2 star", "count": 10000 },
-      { "name": "3 star", "count": 30000 },
-      { "name": "4 star", "count": 285000 },
-      { "name": "5 star", "count": 860000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/20/100/100",
-    "title": "QuickTranslate",
-    "companyName": "Global Connect Inc.",
-    "id": 1010,
-    "description": "Instant voice and text translation in over 100 languages. Your perfect travel companion.",
-    "size": 55,
-    "reviews": 420500,
-    "ratingAvg": 4.6,
-    "downloads": 15000000,
-    "ratings": [
-      { "name": "1 star", "count": 4000 },
-      { "name": "2 star", "count": 5000 },
-      { "name": "3 star", "count": 15000 },
-      { "name": "4 star", "count": 96500 },
-      { "name": "5 star", "count": 300000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/21/100/100",
-    "title": "Fitness Coach AI",
-    "companyName": "Health & Body Labs",
-    "id": 1011,
-    "description": "Personalized workout plans, video guides, and AI-driven form correction. Achieve your fitness goals.",
-    "size": 190,
-    "reviews": 550000,
-    "ratingAvg": 4.5,
-    "downloads": 20000000,
-    "ratings": [
-      { "name": "1 star", "count": 6000 },
-      { "name": "2 star", "count": 9000 },
-      { "name": "3 star", "count": 25000 },
-      { "name": "4 star", "count": 140000 },
-      { "name": "5 star", "count": 370000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/22/100/100",
-    "title": "Study Planner Pro",
-    "companyName": "Academic Tools LLC",
-    "id": 1012,
-    "description": "Organize your study sessions, track assignments, and manage your academic calendar efficiently.",
-    "size": 40,
-    "reviews": 15000,
-    "ratingAvg": 4.8,
-    "downloads": 800000,
-    "ratings": [
-      { "name": "1 star", "count": 100 },
-      { "name": "2 star", "count": 150 },
-      { "name": "3 star", "count": 550 },
-      { "name": "4 star", "count": 2100 },
-      { "name": "5 star", "count": 12100 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/23/100/100",
-    "title": "Music Mixer DJ",
-    "companyName": "Beat Drop Systems",
-    "id": 1013,
-    "description": "Mix, remix, and create your own tracks with professional DJ tools and sound effects.",
-    "size": 280,
-    "reviews": 98000,
-    "ratingAvg": 4.3,
-    "downloads": 4800000,
-    "ratings": [
-      { "name": "1 star", "count": 3000 },
-      { "name": "2 star", "count": 4000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 29000 },
-      { "name": "5 star", "count": 50000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/24/100/100",
-    "title": "Ebook Reader Deluxe",
-    "companyName": "Digital Pages Inc.",
-    "id": 1014,
-    "description": "Read thousands of free ebooks and customize your reading experience with advanced settings.",
-    "size": 70,
-    "reviews": 210000,
-    "ratingAvg": 4.7,
-    "downloads": 9000000,
-    "ratings": [
-      { "name": "1 star", "count": 1800 },
-      { "name": "2 star", "count": 2200 },
-      { "name": "3 star", "count": 6000 },
-      { "name": "4 star", "count": 40000 },
-      { "name": "5 star", "count": 160000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/25/100/100",
-    "title": "Car Racing Turbo",
-    "companyName": "Adrenaline Rush Games",
-    "id": 1015,
-    "description": "High-speed arcade racing with stunning graphics and a massive selection of customizable cars.",
-    "size": 850,
-    "reviews": 1800000,
-    "ratingAvg": 4.6,
-    "downloads": 95000000,
-    "ratings": [
-      { "name": "1 star", "count": 20000 },
-      { "name": "2 star", "count": 30000 },
-      { "name": "3 star", "count": 100000 },
-      { "name": "4 star", "count": 350000 },
-      { "name": "5 star", "count": 1300000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/26/100/100",
-    "title": "Smart Home Control",
-    "companyName": "Connected Life Solutions",
-    "id": 1016,
-    "description": "One app to control all your smart devices: lights, thermostats, cameras, and security systems.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 2001,
+    "description": "Stream millions of songs and podcasts, create playlists, and discover new music tailored to your taste.",
     "size": 85,
-    "reviews": 32000,
-    "ratingAvg": 4.1,
-    "downloads": 1500000,
+    "reviews": 35200000,
+    "ratingAvg": 4.7,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 1500 },
-      { "name": "2 star", "count": 2500 },
-      { "name": "3 star", "count": 6000 },
-      { "name": "4 star", "count": 10000 },
-      { "name": "5 star", "count": 12000 }
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 3500000 },
+      { "name": "4 star", "count": 9000000 },
+      { "name": "5 star", "count": 21000000 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/27/100/100",
-    "title": "Weather Forecast Live",
-    "companyName": "Atmosphere Data Inc.",
-    "id": 1017,
-    "description": "Accurate hourly and 7-day forecasts with real-time radar, severe weather alerts, and beautiful widgets.",
-    "size": 65,
-    "reviews": 950000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2002,
+    "description": "Share photos, reels, and stories with friends and followers around the world.",
+    "size": 120,
+    "reviews": 146000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 4200000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 38000000 },
+      { "name": "5 star", "count": 88000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/YouTube_social_media_logo_%282013-2017%29.svg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 2003,
+    "description": "Watch, upload, and share videos from creators across the globe.",
+    "size": 150,
+    "reviews": 151000000,
+    "ratingAvg": 4.6,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 7000000 },
+      { "name": "3 star", "count": 20000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 74000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2004,
+    "description": "Fast, simple, secure messaging and calling for free* over the internet.",
+    "size": 70,
+    "reviews": 185000000,
+    "ratingAvg": 4.8,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 40000000 },
+      { "name": "5 star", "count": 124000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Google_Maps_icon_%282020%29.svg",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 2005,
+    "description": "Real-time GPS navigation, traffic, and transit info for exploring the world.",
+    "size": 95,
+    "reviews": 170000000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 3500000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 15000000 },
+      { "name": "4 star", "count": 45000000 },
+      { "name": "5 star", "count": 102000000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.flaticon.com/512/3046/3046121.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 2006,
+    "description": "Create and watch short-form mobile videos filled with music, effects, and trends.",
+    "size": 180,
+    "reviews": 190000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 9000000 },
+      { "name": "2 star", "count": 11000000 },
+      { "name": "3 star", "count": 22000000 },
+      { "name": "4 star", "count": 52000000 },
+      { "name": "5 star", "count": 98000000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Zoom_Logo_2022.svg",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 2007,
+    "description": "High-quality video meetings, webinars, and messaging across devices.",
+    "size": 110,
+    "reviews": 16000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 3800000 },
+      { "name": "4 star", "count": 5200000 },
+      { "name": "5 star", "count": 7300000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Snapchat_logo.svg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 2008,
+    "description": "Send snaps, chat with friends, and explore stories and Spotlight content.",
+    "size": 95,
+    "reviews": 34000000,
     "ratingAvg": 4.3,
-    "downloads": 40000000,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2200000 },
+      { "name": "2 star", "count": 3100000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 9500000 },
+      { "name": "5 star", "count": 12200000 }
+    ]
+  },
+  {
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/ChatGPT-Logo.svg",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 2009,
+    "description": "Get instant help with writing, coding, learning, brainstorming, and more using AI.",
+    "size": 60,
+    "reviews": 2500000,
+    "ratingAvg": 4.8,
+    "downloads": 100000000,
     "ratings": [
       { "name": "1 star", "count": 30000 },
-      { "name": "2 star", "count": 45000 },
-      { "name": "3 star", "count": 120000 },
-      { "name": "4 star", "count": 255000 },
-      { "name": "5 star", "count": 500000 }
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1620000 }
     ]
   },
   {
-    "image": "https://picsum.photos/id/28/100/100",
-    "title": "Document Scanner OCR",
-    "companyName": "Productivity Tools Ltd.",
-    "id": 1018,
-    "description": "Scan documents to PDF, extract text using OCR, and share easily. Perfect for students and professionals.",
-    "size": 130,
-    "reviews": 70000,
-    "ratingAvg": 4.9,
-    "downloads": 3000000,
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 250 },
-      { "name": "3 star", "count": 1250 },
-      { "name": "4 star", "count": 15000 },
-      { "name": "5 star", "count": 53000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/29/100/100",
-    "title": "Kids Learning Games",
-    "companyName": "EduPlay Inc.",
-    "id": 1019,
-    "description": "Fun and educational games for toddlers and preschoolers. Learn letters, numbers, and shapes.",
-    "size": 220,
-    "reviews": 45000,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 2010,
+    "description": "Grow your professional network, search jobs, and share your work experience.",
+    "size": 80,
+    "reviews": 33000000,
     "ratingAvg": 4.5,
-    "downloads": 1800000,
+    "downloads": 1000000000,
     "ratings": [
-      { "name": "1 star", "count": 800 },
-      { "name": "2 star", "count": 1000 },
-      { "name": "3 star", "count": 3200 },
-      { "name": "4 star", "count": 10000 },
-      { "name": "5 star", "count": 30000 }
-    ]
-  },
-  {
-    "image": "https://picsum.photos/id/30/100/100",
-    "title": "RPG Fantasy World",
-    "companyName": "Mythic Quest Studios",
-    "id": 1020,
-    "description": "An immersive open-world RPG with epic quests, deep character customization, and strategic combat.",
-    "size": 1500,
-    "reviews": 550000,
-    "ratingAvg": 4.8,
-    "downloads": 25000000,
-    "ratings": [
-      { "name": "1 star", "count": 5000 },
-      { "name": "2 star", "count": 3000 },
-      { "name": "3 star", "count": 12000 },
-      { "name": "4 star", "count": 120000 },
-      { "name": "5 star", "count": 410000 }
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 3200000 },
+      { "name": "4 star", "count": 8500000 },
+      { "name": "5 star", "count": 21000000 }
     ]
   }
 ]
